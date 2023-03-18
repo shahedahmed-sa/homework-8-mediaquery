@@ -1,0 +1,291 @@
+/*(Extra small devices portrait phones, less than 576px)*/ 
+@media (max-width: 575.98px) {
+    h1{
+        color: darkred;
+        text-align: center;
+    }
+    p{
+        color:navy;
+        text-align: center;
+    }
+    
+    .box-green{
+        margin: 20px 0 ;
+        min-height: 50px;
+        background-color: green;
+        font-size: 10px;
+        color: white;
+    }
+    .box-red{
+        margin: 20px 0 ;
+        min-height: 50px;
+        background-color: red;
+        font-size: 10px;
+        color: white;
+        
+    }
+    
+    .box-yellow{
+        margin: 20px 0 ;
+        min-height: 50px;
+        background-color: yellow;
+        font-size: 10px;
+        color: rgb(46, 45, 45);
+        
+    }
+    .box-orange{
+        margin: 20px 0 ;
+        min-height: 50px;
+        background-color: orange;
+        font-size: 10px;
+        color: rgb(46, 45, 45);
+        
+    }
+    
+    .box-lime{
+        margin: 20px 0 ;
+        min-height: 50px;
+        background-color: grey;
+        font-size: 10px;
+        color: white;
+    }
+ 
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    h1{
+        color: darkred;
+        text-align: center;
+    }
+    p{
+        color:navy;
+        text-align: center;
+    }
+    .box-green{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: darkcyan;
+        font-size: 15px;
+        color: white;
+    }
+    .box-red{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: red;
+        font-size: 15px;
+        color: white;
+        
+    }
+    
+    .box-yellow{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: yellow;
+        font-size: 15px;
+        color: rgb(46, 45, 45);
+        
+    }
+    .box-orange{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: orange;
+        font-size: 15px;
+        color: rgb(46, 45, 45);
+        
+    }
+    
+    .box-lime{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: lime;
+        font-size: 15px;
+        color: white;
+    }
+        
+    
+
+}
+
+/* Medium devices (tablets, 768px and 991)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    h1{
+        color: darkgreen;
+        text-align: center;
+    }
+    p{
+        color:brown;
+        text-align: center;
+    }
+    .box-green{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: orangered;
+        font-size: 30px;
+        color: white;
+    }
+    .box-red{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: greenyellow;
+        font-size: 30px;
+        color: white;
+        
+    }
+    
+    .box-yellow{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: blueviolet;
+        font-size: 30px;
+        color: rgb(46, 45, 45);
+        
+    }
+    .box-orange{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: darkolivegreen;
+        font-size: 30px;
+        color: rgb(46, 45, 45);
+        
+    }
+    
+    .box-lime{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: lightblue;
+        font-size: 30px;
+        color: white;
+    }
+
+        
+}
+ 
+
+/* Large devices (desktops, 992px and 1199)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{ 
+    h1{
+        color: darkred;
+        text-align: center;
+    }
+    p{
+        color:navy;
+        text-align: center;
+    }
+    h1{
+        color: darkred;
+        text-align: center;
+    }
+    p{
+        color:navy;
+        text-align: center;
+    }
+    .box-green{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: darkcyan;
+        font-size: 15px;
+        color: white;
+    }
+    .box-red{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: red;
+        font-size: 15px;
+        color: white;
+        
+    }
+    
+    .box-yellow{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: yellow;
+        font-size: 15px;
+        color: rgb(46, 45, 45);
+        
+    }
+    .box-orange{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: orange;
+        font-size: 15px;
+        color: rgb(46, 45, 45);
+        
+    }
+    
+    .box-lime{
+        margin: 15px 0 ;
+        min-height: 70px;
+        background-color: lime;
+        font-size: 15px;
+        color: white;
+    }
+   
+}
+
+/* Extra Large devices (desktops, 1200 and 1399)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    h1{
+        color: royalblue;
+        text-align: center;
+    }
+    p{
+        color:rgb(0, 128, 75);
+        text-align: center;
+    }
+
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    h1{
+        color: darkred;
+        text-align: center;
+    }
+    p{
+        color:navy;
+        text-align: center;
+    }
+    .box-green{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: rebeccapurple;
+        font-size: 20px;
+        color: white;
+    }
+    .box-red{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: blue;
+        font-size: 20px;
+        color: white;
+        
+    }
+    
+    .box-yellow{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: limegreen;
+        font-size: 20px;
+        color: rgb(46, 45, 45);
+        
+    }
+    .box-orange{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: teal;
+        font-size: 20px;
+        color: rgb(46, 45, 45);
+        
+    }
+    
+    .box-lime{
+        margin: 10px 0 ;
+        min-height: 80px;
+        background-color: grey;
+        font-size: 20px;
+        color: white;
+    }
+    
+ }
